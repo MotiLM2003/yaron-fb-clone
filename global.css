@@ -22,12 +22,67 @@ body {
   display: flex;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 2.5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.pr-2 {
+  padding-right: 1.5rem;
+}
+
+.pr-3 {
+  padding-right: 2rem;
+}
+
+.relative {
+  position: relative;
+}
 .flex {
   display: flex;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.space-around {
+  justify-content: space-around;
 }
 
 .justify-center {
   justify-content: center;
+}
+.align-items-center {
+  align-items: center;
 }
 
 .align-items-center {
@@ -68,8 +123,15 @@ body {
   gap: 4rem;
 }
 
+.grow {
+  flex-grow: 1;
+}
 .full-width {
   width: 100%;
+}
+
+.transition-all {
+  transition: all 0.5s;
 }
 
 input[type='text'],
@@ -122,6 +184,20 @@ textarea {
   font-size: 1.4em;
 }
 
+.background-position-cover {
+  background-position: cover;
+}
+
+.object-position-cover {
+  object-fit: cover;
+}
+
+.w-250 {
+  width: 250px;
+}
+.w-300 {
+  width: 300px;
+}
 .card {
   border: 1px solid #d8e1eb;
   padding: 2rem;
