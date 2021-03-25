@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -148,7 +148,7 @@
           <a href="#" onclick="keepReading()">Keep reading...</a>
 
           <div class="flex mt-3 space-around w-250">
-            <div class="flex gap-1 cursor-pointer">
+            <div class="flex gap-1 cursor-pointer" onclick="like()">
               <i class="fas fa-thumbs-up transition-all"></i> <span>Like</span>
             </div>
             <div>
@@ -163,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class="flex justify-center">
+          <div class="flex justify-center" onclick="nextPage()">
             <button class="button bg-blue mt-4">Next Page</button>
           </div>
           <div class="flex justify-center mt-2">

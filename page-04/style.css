@@ -6,6 +6,7 @@ body {
 
 .header-main {
   background: #fff;
+  display: flex;
 }
 
 .header-main > div {
@@ -41,8 +42,8 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
-  width: 1200px;
+  max-width: 1050px;
+
   margin: 0 auto;
 }
 
