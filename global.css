@@ -168,6 +168,11 @@ textarea {
   color: #fff;
 }
 
+.bg-red {
+  color: #fff;
+  background: red;
+}
+
 .font-size-1 {
   font-size: 1.1em;
 }
@@ -208,4 +213,12 @@ textarea {
   justify-content: center;
   gap: 3rem;
   border-radius: 0.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }

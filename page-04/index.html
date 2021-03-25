@@ -145,20 +145,20 @@
             pariatur sint, incidunt accusantium dignissimos illum explicabo
             labore quam vitae suscipit iste tempora?
           </p>
-          <a href="#">Keep reading...</a>
+          <a href="#" onclick="keepReading()">Keep reading...</a>
 
           <div class="flex mt-3 space-around w-250">
             <div class="flex gap-1 cursor-pointer">
               <i class="fas fa-thumbs-up transition-all"></i> <span>Like</span>
             </div>
             <div>
-              <div class="flex gap-1 cursor-pointer">
+              <div class="flex gap-1 cursor-pointer" onclick="comment()">
                 <i class="fas fa-comment transition-all"></i
                 ><span>Comment</span>
               </div>
             </div>
             <div>
-              <div class="flex gap-1 cursor-pointer">
+              <div class="flex gap-1 cursor-pointer" onclick="sharing()">
                 <i class="fas fa-share transition-all"></i><span>Share</span>
               </div>
             </div>
@@ -175,6 +175,20 @@
       </div>
     </div>
     <!-- END MAIN SECTION - CONTAIN ASIDE MAIN VIEW AND SIDEBAR -->
-    <section></section>
+
+    <div class="background-black hide"  id="background-black">
+      <div class="share_content">
+        <div>
+          You decided to share this post with your close friends!<br />
+          Why are you want to share this post?
+        </div>
+        <div><input type="text" /></div>
+
+       <div class="flex gap-1"> 
+         <button class="button bg-blue"  onclick="thanks()">Share</button>
+         <button class="button bg-red"  onclick="setVisible(false)" >Cancel</button>
+      </div>
+    </div>
   </body>
+  <script src="/js.js"></script>
 </html>
